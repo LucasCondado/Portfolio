@@ -120,9 +120,9 @@ main ul {
 footer {
     font-family: var(--fonte-titulo);
     width: 100%;
-    background-color: var(--cor-laranja);
+    background-color: #D98260;
     text-align: center;
-    color: white;
+    color: #FFF9F5;
     padding: 10px;
 }
 footer > p > a {
