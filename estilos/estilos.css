@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+:root {
+  --fonte-corpo: 'Inter', sans-serif;
+  --fonte-titulo: 'Montserrat', sans-serif;
+  /* Cores principais */
+  --cor-azul: #315292;        /* cor de fundo para alguns elementos */
+  --cor-texto-azul: #F1F5F9; /* cor de texto para o azul*/
+  --cor-verde: #03A696; /* fundo secundário */
+  --cor-laranja: #F27457;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-verde);
+}
+
+header {
+    width: 100%;
+    max-height: 28vh;
+    background-color: var(--cor-azul);
+    display: inline-block;
+    font-family: var(--fonte-titulo);
+}
+
+header > h1 {
+    padding: 0px 5px 0px 15px;
+    display: inline-block;
+    color: #F1F5F9;
+}
+
+header > h1 > a {
+    text-decoration: none;
+    color: #F1F5F9;
+}
+
+main {
+    margin: 0px 10px 0px 10px;
+    background-color: rgb(255, 252, 246);
+    text-align: center;
+}
+
+main > h1 {
+    font-family: var(--fonte-titulo);
+    padding-left: 4px;
+    color: ;
+}
+
+main > p {
+    font-family: var(--fonte-corpo);
+    padding-left: 2px;
+}
+
+#contato {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* espaço entre o ícone e o texto */
+}
+
+#contato h1 {
+  font-family: var(--fonte-titulo);
+  margin: 0;
+}
+
+#contato svg {
+  width: 32px;
+  height: 32px;
+  fill: #04BF9D; /* cor do ícone */
+}
+
+
+footer {
+    font-family: var(--fonte-titulo);
+    width: 100%;
+    background-color: var(--cor-laranja);
+    text-align: center;
+    color: white;
+}
+footer > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: bisque;
+}
