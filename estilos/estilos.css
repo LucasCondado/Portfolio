@@ -44,6 +44,7 @@ main {
     margin: 0px 10px 0px 10px;
     background-color: rgb(255, 252, 246);
     text-align: center;
+    padding-bottom: 30px;
 }
 
 main > h1 {
@@ -77,6 +78,11 @@ main a {
   width: 32px;
   height: 32px;
   fill: #04BF9D; /* cor do ícone */
+}
+
+#curriculo {
+    display: block;
+    text-align: justify;
 }
 
 footer {
