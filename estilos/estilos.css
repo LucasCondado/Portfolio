@@ -24,7 +24,6 @@ body, html {
 
 header > nav > a {
   color: #04BF9D;
-;
   text-decoration: none;
   font-size: 1.5em;
   font-family: var(--fonte-titulo);
@@ -40,10 +39,13 @@ header > nav > a:hover {
 }
 
 nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;          
   background-color: var(--cor-azul);
   padding: 15px;
 }
-
 main {
     margin: 0px 15px;
     background-color: rgb(255, 252, 246);
