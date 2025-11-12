@@ -18,7 +18,7 @@
 }
 
 body, html {
-    background-color: var(--cor-verde);
+    background-color: #2dd2c6;
     overflow-x: hidden; 
 }
 
@@ -78,7 +78,7 @@ header > nav > a:hover {
 
 
 main {
-    margin: 0px 15px;
+    margin: 0px 10px;
     background-color: rgb(255, 252, 246);
     text-align: center;
     padding-bottom: 30px;
@@ -111,7 +111,6 @@ main a {
     text-align: left;
     font-weight: 900;
     color: #00ccb8;
-
 }
 
 main ul {
@@ -284,10 +283,15 @@ div {
 }
 
 @media (min-width: 1080px) {
+  nav > a {
+    margin: 15px;
+  }
+
   main {
     margin-right: 4vw;
     margin-left: 4vw;
   }
+  
   #buscador {
     width: 30vw;       
     max-width: 80%;    
