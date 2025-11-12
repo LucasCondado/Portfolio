@@ -305,5 +305,15 @@ div {
   nav > a {
     margin: 25px;
   }
+  
+  #buscador {
+    width: 30vw;       
+    max-width: 40%;    
+    height: 400px;      
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    border: none;
+  }
 }
 
