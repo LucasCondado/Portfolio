@@ -301,3 +301,9 @@ div {
   }
 }
 
+@media (min-width: 1080px) {
+  nav > a {
+    margin: 25px;
+  }
+}
+
