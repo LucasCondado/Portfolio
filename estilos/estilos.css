@@ -85,8 +85,8 @@ main {
     margin: 0px 10px;
     background-color: #F9FBFF;
     text-align: center;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding-bottom: 8px;
+    padding-top: 48px;
 }
 
 h1 {
@@ -126,6 +126,19 @@ main > section > p {
     margin-bottom: 30px;
     color: var(--cor-texto-secundario);
 }
+
+section >h2 {
+  margin-bottom: 32px;
+}
+
+#resdesdiv {
+  color: #00ccb8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 
 main a {
     text-decoration: none;
@@ -179,13 +192,26 @@ footer > p > a {
     color: white;
 }
 
+#apr {
+  margin-bottom: 48px;
+}
+
 #apresentacao {
+  margin-top: 48px;
   font-family: var(--fonte-titulo);
   display: flex;
   align-items: center;
   gap: 10px; /* espaço entre imagem e texto */
   justify-content: center; /* ou left, se quiser alinhado à esquerda */
-  margin-bottom: 10px;
+  margin-bottom: 32px;
+}
+
+#jogo {
+  margin-bottom: 16px;
+}
+
+#serii{
+  margin-bottom: 16px;
 }
 
 #apresentacao img {
@@ -206,6 +232,9 @@ main #c2 {
   text-align: left;
 }
 
+#ser {
+  margin-bottom: 32px;
+}
 
 .esq {
   text-align: left;
@@ -224,29 +253,83 @@ iframe {
 }
 
 #con1, #con2 {
+  text-decoration: none; 
+  display: flex; 
+  align-items: center; 
+  gap: 6px;" 
   margin-top: 20px;
   font-family: var(--fonte-corpo);
 }
+
+#con1 {
+  margin-bottom: 16px;
+}
+
+
+#insta {
+  display: flex; align-items: center; gap: 6px; text-decoration: none; color: inherit;
+}
+
+#github {
+    display: flex; align-items: center; gap: 6px; text-decoration: none; color: inherit;
+}
+
+#email {
+    display: flex; align-items: center; gap: 6px; text-decoration: none; color: inherit;
+}
+
+#zapzap {
+  display: flex; align-items: center; gap: 6px; text-decoration: none; color: inherit;
+}
+
 
 div {
   font-family: var(--fonte-titulo);
 }
 
 .buscador {
-  max-width: 75vw;
-  height: 60vh; /* altura proporcional à tela */
-  border: none;
   border-radius: 10px;
-  margin-bottom: 20px;
-  box-align: center;
+  overflow: hidden; /* esconde totalmente qualquer overflow */
+  height: 60vh;
+  width: 75%;
+  border: none;
+  margin-top: 30px;
 }
 
+
+.buscador::-webkit-scrollbar {
+  width: 0;  /* Chrome, Safari e Opera */
+  display: none;
+}
+
+.buscador {
+  -ms-overflow-style: none;  /* IE e Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+#biog {
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
 
  #projeto {
   background-color: #d8e0ee;
+  padding: 32px 0px;
 }
 
-/* Responsividade */
+#mapa {
+  margin-bottom: 32px;
+}
+
+#game {
+  margin-bottom: 32px;
+}
+
+#redesc {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 1024px) {
   header > nav > a {
     font-size: 1.1rem;
@@ -297,11 +380,16 @@ div {
     max-width: none; 
 }
 
+  .buscador {
+    overflow: hidden; /* esconde overflow */
+    height: 60vh;
+    border: none;
+  }
    header {
     height: 130px;
    }
 
-    #buscador {
+    .buscador {
     width: 100vw;       
     max-width: 100%;    
     height: 400px;      
